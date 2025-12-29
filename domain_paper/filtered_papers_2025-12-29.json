@@ -1,0 +1,15 @@
+[
+    {
+        "index": "#3",
+        "title": "Accelerating Scientific Discovery with Autonomous Goal-evolving Agents",
+        "link": "/arxiv/2512.21782",
+        "arxiv_id": "2512.21782",
+        "authors": "Yuanqi Du, Botao Yu, Tianyu Liu, Tony Shen, Junwu Chen, Jan G. Rittig, Kunyang Sun, Yikun Zhang, Zhangde Song, Bo Zhou, Cassandra Masschelein, Yingze Wang, Haorui Wang, Haojun Jia, Chao Zhang, Hongyu Zhao, Martin Ester, Teresa Head-Gordon, Carla P. Gomes, Huan Sun, Chenru Duan, Philippe Schwaller, Wengong Jin",
+        "summary": "There has been unprecedented interest in developing agents that expand the boundary of scientific discovery, primarily by optimizing quantitative objective functions specified by scientists. However, for grand challenges in science , these objectives are only imperfect proxies. We argue that automating objective function design is a central, yet unmet requirement for scientific discovery agents. In this work, we introduce the Scientific Autonomous Goal-evolving Agent (SAGA) to amend this challenge. SAGA employs a bi-level architecture in which an outer loop of LLM agents analyzes optimization outcomes, proposes new objectives, and converts them into computable scoring functions, while an inner loop performs solution optimization under the current objectives. This bi-level design enables systematic exploration of the space of objectives and their trade-offs, rather than treating them as fixed inputs. We demonstrate the framework through a broad spectrum of applications, including antibiotic design, inorganic materials design, functional DNA sequence design, and chemical process design, showing that automating objective formulation can substantially improve the effectiveness of scientific discovery agents.",
+        "subjects": "Artificial Intelligence, Materials Science, Machine Learning, Chemical Physics",
+        "date": "2025-12-25",
+        "category": "cs.AI",
+        "crawl_time": "2025-12-29T22:45:10.829214",
+        "filter_reason": "该论文完全符合您的研究范围，属于“自我演化 (Self-Evolving)”和“单/多智能体 (Agentic/Multi-Agent)”的核心交集。以下是基于筛选标准的详细分析： 1.  **核心贡献符合方法论要求 (第一步 & 第四步):** 虽然该论文的应用背景是科学发现（如抗生素、材料设计），但其核心贡献并非简单的“LLM应用”，而是提出了一种名为 **SAGA (Scientific Autonomous Goal-evolving Agent)** 的**新框架**。该框架通过“双环架构（bi-level architecture）”解决了智能体目标设定的动态演化问题，这属于构建 Agentic AI 的核心方法论。 2.  **高度契合“自我演化”方向 (第二步):** 论文的核心关键词包括 `Autonomous Goal-evolving` 和 `Iterative Improvement`。它通过外环（Outer Loop）让 LLM 智能体分析结果并自主提炼、修改目标函数（Objective Functions），这种“目标自我演化”的能力是智能体自主性和自我完善机制的高级体现，直接命中您的“自我演化”研究焦点。 3.  **体现了智能体的规划与反思能力 (第二步):** SAGA 框架中的外环智能体需要对优化结果进行“分析（Analyze）”并“提出新目标（Propose new objectives）”，这涉及到了智能体的**自我反思（Self-Reflection）**和**高阶规划（Planning）**能力。 4.  **符合特殊情况处理规则 (第四步):** 根据您的第四步规则第2条（自我演化的应用）：即使论文应用在特定领域（如化学、生物），只要其核心是提出一种新的“自我演化”机制，就应予以保留。SAGA 提出的目标演化机制具有通用性，是智能体架构层面的创新。 5.  **排除标准过滤 (第三步):** 该论文不涉及安全对齐、纯多模态视觉或基础硬件设施，其重点在于智能体的逻辑架构和演化逻辑。 **总结：** 这是一篇关于智能体如何通过环境反馈自主演化其任务目标的前沿论文，是研究“Agentic AI 演化机制”的典型样本。"
+    }
+]

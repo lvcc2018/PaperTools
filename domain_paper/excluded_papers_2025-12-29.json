@@ -1,0 +1,110 @@
+[
+    {
+        "index": "#5",
+        "title": "Towards Responsible and Explainable AI Agents with Consensus-Driven Reasoning",
+        "link": "/arxiv/2512.21699",
+        "arxiv_id": "2512.21699",
+        "authors": "Eranga Bandara, Tharaka Hewa, Ross Gore, Sachin Shetty, Ravi Mukkamala, Peter Foytik, Abdul Rahman, Safdar H. Bouk, Xueping Liang, Amin Hass, Sachini Rajapakse, Ng Wee Keong, Kasun De Zoysa, Aruna Withanage, Nilaan Loganathan",
+        "subjects": "Artificial Intelligence",
+        "date": "2025-12-25",
+        "category": "cs.AI",
+        "crawl_time": "2025-12-29T22:45:10.829439",
+        "filter_reason": "该论文虽然涉及了“多智能体系统 (Multi-Agent Systems)”和“Agentic AI”等关键词，但根据你设定的筛选标准，应予以排除。具体判断过程如下： 1.  **核心贡献偏离 (触发第三步排除标准):** 筛选标准第三步明确规定：“只要论文的主要贡献是关于 `Safety` (安全性)、`Interpretability` (可解释性)、`Explainability (XAI)`、`Alignment` (对齐) 或 `Hallucination` (幻觉)，一律排除。” 这篇论文的标题和摘要反复强调其核心目标是构建“负责任的 (Responsible)”和“可解释的 (Explainable)”AI 智能体架构。其核心贡献在于通过多模型共识机制来增强系统的透明度、可审计性并减少幻觉，这完全属于安全与对齐的研究范畴。 2.  **研究焦点不符:** 你的研究焦点是智能体的“构建、改进或演化”。虽然该论文提出了一个多智能体协作架构，但这种协作（Consensus-driven reasoning）的目的是为了“治理 (Governance)”和“约束 (Constraints)”，而非为了提升智能体自主的规划能力、社会学习能力或实现自我演化。 3.  **多模态因素 (触发第三步排除标准):** 论文明确提到使用了 Vision Language Models (VLMs) 且将其作为架构的核心组成部分（异构智能体联盟），这在你的筛选标准中属于次要排除因素，除非其核心是研究演化。 **总结：** 该论文本质上是一篇关于 **AI 安全与治理 (AI Governance & XAI)** 的论文，利用多智能体框架作为实现手段，而非研究智能体本身的演化机制或核心 Agentic 能力的提升，因此不符合你的研究范围。"
+    },
+    {
+        "index": "#10",
+        "title": "NEMO-4-PAYPAL: Leveraging NVIDIA's Nemo Framework for empowering PayPal's Commerce Agent",
+        "link": "/arxiv/2512.21578",
+        "arxiv_id": "2512.21578",
+        "authors": "Ali Sahami, Sudhanshu Garg, Andrew Wang, Chaitanya Kulkarni, Farhad Farahani, Sean Yun-Shiuan Chuang, Jian Wan, Srinivasan Manoharan, Uma Kona, Nitin Sharma, Linsey Pang, Prakhar Mehrotra, Jessica Clark, Mark Moyou",
+        "subjects": "Artificial Intelligence",
+        "date": "2025-12-25",
+        "category": "cs.AI",
+        "crawl_time": "2025-12-29T22:45:10.829971",
+        "filter_reason": "根据你设定的筛选标准，这篇论文不符合你的研究范围，理由如下： 1.  **核心贡献属于“非演化型应用” (Exclude - Step 1.1):** 该论文的本质是将现有的 LLM 技术（NVIDIA 的 NeMo 框架和 Nemotron 模型）应用到特定的商业领域（PayPal 的电子商务）。虽然摘要中提到了“Multi-agent system”，但其核心工作是针对“搜索与发现”这一特定任务进行模型微调（Fine-tuning），而非提出新的智能体协作协议或通用的多智能体框架。 2.  **侧重于基础设施与部署优化 (Exclude - Step 1.3):** 论文的主要贡献点（3）和（4）明确指出，其重点在于通过微调小参数模型（SLM）来降低延迟（Latency）和成本（Cost），并提供生产环境下的优化方案。这属于“部署优化”和“基础设施”范畴，而非智能体自主规划或认知能力的提升。 3.  **缺乏核心演化机制 (Exclude - Step 4.2):** 论文中提到的性能提升是通过传统的监督式微调（LoRA、超参数搜索）实现的，不涉及智能体通过经验、反思或环境反馈进行“自我完善”或“迭代演化”的机制。 4.  **非 Agentic 核心研究:** 虽然论文使用了“Agentic Commerce”这一术语，但其技术路径是典型的“模型微调以增强检索任务”，并没有深入探讨智能体的自主规划（Planning）、工具使用的逻辑构建或复杂的自我反思（Self-Reflection）框架。 **总结：** 这是一篇偏向工业界应用和工程优化的论文，旨在解决特定业务场景下的效率问题，不符合你关于“构建、改进或演化 LLM 智能体”的方法论研究目标。"
+    },
+    {
+        "index": "#8",
+        "title": "AMS-IO-Bench and AMS-IO-Agent: Benchmarking and Structured Reasoning for Analog and Mixed-Signal Integrated Circuit Input/Output Design",
+        "link": "/arxiv/2512.21613",
+        "arxiv_id": "2512.21613",
+        "authors": "Zhishuai Zhang, Xintian Li, Shilong Liu, Aodong Zhang, Lu Jie, Nan Sun",
+        "subjects": "Artificial Intelligence",
+        "date": "2025-12-25",
+        "category": "cs.AI",
+        "crawl_time": "2025-12-29T22:45:10.829739",
+        "filter_reason": "1. **核心贡献分析**：这篇论文的核心贡献是开发了一个名为 `AMS-IO-Agent` 的领域专用智能体及其配套的基准测试 `AMS-IO-Bench`。其主要工作在于将 LLM 智能体技术应用于**模拟与混合信号集成电路（AMS IC）设计**这一特定工业领域，通过结构化知识库和意图转换（JSON/Python）来解决该领域的工程问题。 2. **符合排除标准（第一步 - 排除项 1）**：根据筛选标准第一步，该论文属于典型的“**非演化型应用 (Non-Evolving Applications)**”。它虽然使用了“Agent”这一术语，但其本质是将已有的 LLM 智能体范式（如工具调用、结构化推理）作为工具，应用到特定的 IC 设计领域。其研究重点在于如何解决 IC 设计中的 DRC/LVS 通过率和设计周期问题，而非探索智能体本身的新型架构或通用演化机制。 3. **缺乏核心关注点（第二步 & 第四步）**： - **无自我演化**：摘要中未提及智能体具备通过经验、反思或环境反馈进行“自我完善”或“迭代演化”的机制（不符合“自我演化”方向）。 - **非通用规划改进**：虽然涉及“结构化推理”，但这种推理是高度领域定制化的（Domain-specialized），旨在将自然语言转化为特定工业格式，而非提出一种通用的、可迁移的智能体规划新理论（如 ReAct 或 ToT 的底层改进）。 - **单智能体应用**：论文描述的是一个针对特定任务的单智能体流程，不涉及多智能体协作、博弈或社会学习。 4. **总结**：该论文是一篇优秀的“AI for Science/Engineering”应用类论文，但其研究重心在于**集成电路自动化设计（EDA/IC Design）**，而非**智能体架构的通用演化或核心方法论的突破**。因此，它不符合您关于“LLM智能体及其演化”的研究范围。"
+    },
+    {
+        "index": "#9",
+        "title": "A Medical Multimodal Diagnostic Framework Integrating Vision-Language Models and Logic Tree Reasoning",
+        "link": "/arxiv/2512.21583",
+        "arxiv_id": "2512.21583",
+        "authors": "Zelin Zang, Wenyi Gu, Siqi Ma, Dan Yang, Yue Shen, Zhu Zhang, Guohui Fan, Wing-Kuen Ling, Fuji Yang",
+        "subjects": "Artificial Intelligence",
+        "date": "2025-12-25",
+        "category": "cs.AI",
+        "crawl_time": "2025-12-29T22:45:10.829847",
+        "filter_reason": "根据你提供的筛选标准，这篇论文不符合你的研究范围。以下是详细的判断过程： 1.  **核心判断（本质）- 排除**：该论文的核心是一个“非演化型应用”。它将视觉语言模型（VLM，具体为LLaVA）应用于特定的**医疗诊断领域**。虽然它提出了一个逻辑树推理框架，但其本质是解决医疗影像与文本结合时的幻觉和一致性问题，而非构建通用的Agentic AI或自我演化机制。 2.  **排除标准（多模态与视觉）- 命中**：论文明确指出其核心是基于视觉语言模型（VLMs）和跨模态对齐（Vision-Language Alignment）。根据第三步标准，除非多模态仅作为工具，否则应予以排除。本研究的核心贡献在于多模态医疗诊断框架，属于典型的排除项。 3.  **排除标准（安全与对齐）- 命中**：摘要中明确提到该研究的动机是解决“幻觉（hallucinations）”问题，并旨在构建“可信的（trustworthy）”AI。这属于第三步中明确排除的“安全、对齐与幻觉”范畴。 4.  **特殊情况处理（推理与规划）**：虽然论文提到了“推理控制器”和“任务分解”，这在形式上类似于智能体的规划（Planning），但其目的是为了提高诊断的准确性和可解释性，而非构建一个具备自主性、记忆或工具使用能力的通用智能体框架。 5.  **缺乏核心范式**：论文完全没有涉及“多智能体协作（MAS）”或“自我演化（Self-Evolving）”机制。它是一个静态的推理增强框架，不具备通过经验或反馈进行自我迭代的能力。 **总结**：该论文是一篇典型的**医疗领域多模态应用研究**，侧重于推理的可解释性和减少幻觉，不属于Agentic AI或自我演化智能体的核心方法论研究。"
+    },
+    {
+        "index": "#6",
+        "title": "Multiple-play Stochastic Bandits with Prioritized Arm Capacity Sharing",
+        "link": "/arxiv/2512.21626",
+        "arxiv_id": "2512.21626",
+        "authors": "Hong Xie, Haoran Gu, Yanying Huang, Tao Tan, Defu Lian",
+        "subjects": "Artificial Intelligence",
+        "date": "2025-12-25",
+        "category": "cs.AI",
+        "crawl_time": "2025-12-29T22:45:10.829536",
+        "filter_reason": "1. **核心贡献偏离**: 这篇论文的核心贡献属于**数学优化与在线学习（Multi-Armed Bandits, MAB）**领域。它提出了一种针对资源分配问题的多臂老虎机变体模型，并证明了其遗憾界（Regret Bounds）以及设计了相应的分配算法（MSB-PRS-OffOpt）。这属于算法理论和数学证明，而非构建或改进 LLM 智能体的方法论。 2. **属于排除范畴（基础设施/部署优化）**: 尽管摘要中提到了“LLM applications”，但其语境是将 LLM 应用作为资源分配的背景（例如如何在边缘计算或多任务中分配计算资源），这符合筛选标准第一步中排除的“**基础设施（Infrastructure）与部署优化**”类研究。它关注的是如何高效分配资源给 LLM，而不是研究 LLM 智能体本身的认知架构或演化机制。 3. **缺乏 Agentic 核心要素**: 论文不涉及智能体的自主规划（Planning）、工具使用（Tool Use）、记忆（Memory）或自我反思（Self-Reflection）。它所讨论的“Play”和“Arm”是概率模型中的抽象概念，而非具有自主决策能力的 Agentic AI。 4. **非自我演化机制**: 论文中的算法改进（UCB 变体）是基于统计学和优化理论的参数更新，不符合筛选标准中定义的“通过经验、反思或环境反馈进行自我完善”的**自我演化（Self-Evolving）**智能体框架。 综上所述，该论文属于底层资源调度与算法理论研究，不符合您关于 LLM 智能体及其演化的研究范围。"
+    },
+    {
+        "index": "#7",
+        "title": "Democratizing Drug Discovery with an Orchestrated, Knowledge-Driven Multi-Agent Team for User-Guided Therapeutic Design",
+        "link": "/arxiv/2512.21623",
+        "arxiv_id": "2512.21623",
+        "authors": "Takahide Suzuki, Kazuki Nakanishi, Takashi Fujiwara, Hideyuki Shimizu",
+        "subjects": "Artificial Intelligence, Multiagent Systems, Quantitative Methods",
+        "date": "2025-12-25",
+        "category": "cs.AI",
+        "crawl_time": "2025-12-29T22:45:10.829638",
+        "filter_reason": "1. **核心贡献偏向领域应用 (Non-Evolving Applications):** 尽管该论文采用了多智能体系统 (MAS) 的架构，但其核心贡献在于利用这一架构解决**生物医药/药物研发 (Drug Discovery)** 这一特定领域的复杂问题。根据筛选标准第一步的排除规则第1条，将 LLM 智能体作为工具应用到生物、医疗、化学等特定领域的研究应予以排除。 2. **缺乏通用的智能体演化机制:** 论文虽然提到了“动态反馈循环” (dynamic feedback loop) 和“迭代优化” (iterative optimization)，但这种迭代是针对**药物分子结构**的优化（即任务目标的优化），而非智能体自身逻辑、规划能力或框架结构的**自我演化 (Self-Evolving)**。它更像是一个针对特定工作流设计的自动化多智能体流水线，不符合研究焦点中对“智能体自我完善和迭代”的要求。 3. **研究重心不在 Agentic AI 理论:** 论文的标题和摘要明确指出其目标是“使药物发现民主化”，其设计的智能体（生物学家智能体、化学家智能体、药理学家智能体）是高度领域化的。这属于“使用 Agent 解决领域问题”，而非“为了改进 Agent 理论而进行的研究”。 4. **特殊情况处理:** 按照第四步的规则，虽然该应用包含迭代，但它并未提出一种新的、可迁移的“自我演化”通用机制，因此不属于保留的例外情况。 综上所述，该论文属于 Agentic AI 在特定科学领域的应用研究，而非关于智能体架构或演化机制的基础性改进，故不符合您的研究范围。"
+    },
+    {
+        "index": "#2",
+        "title": "SpatialBench: Can Agents Analyze Real-World Spatial Biology Data?",
+        "link": "/arxiv/2512.21907",
+        "arxiv_id": "2512.21907",
+        "authors": "Kenny Workman, Zhen Yang, Harihara Muralidharan, Hannah Le",
+        "subjects": "Artificial Intelligence",
+        "date": "2025-12-26",
+        "category": "cs.AI",
+        "crawl_time": "2025-12-29T22:45:10.829040",
+        "filter_reason": "根据你设定的筛选标准，这篇论文不符合你的研究范围。以下是详细的判断过程： 1.  **核心判断（第一步）：** 该论文的核心贡献是提出了一个名为 **SpatialBench 的基准测试（Benchmark）**，旨在评估现有 AI 智能体在处理“空间转录组学”这一特定生物领域数据时的表现。它本质上属于**领域特定应用的评估研究**，而非关于构建、改进或演化 LLM 智能体的方法论或新框架。 2.  **排除标准（第一步 & 第四步）：** *   **非演化型应用：** 论文虽然讨论了 Agent，但其重点在于将 Agent 作为工具应用于生物医学发现（Spatial Biology）。它评估的是 Agent 在特定科学任务中的准确性，而不是提出一种通用的 Agent 演化机制。 *   **缺乏核心范式创新：** 论文并未提出新的规划算法、记忆机制或多智能体协作协议。虽然摘要提到了工具（Tools）和控制流（Control flow）对性能有影响，但这些是作为“评估变量”出现的，目的是为了诊断现有模型的不足，而非提出一种普适性的 Agent 增强框架。 3.  **正面指标缺失（第二步）：** 论文中完全没有涉及你核心关注的 `Self-Evolving`（自我演化）、`Multi-Agent Systems`（多智能体系统）或 `Iterative Improvement`（迭代改进）等机制。 4.  **总结：** 你的研究焦点是 **Agentic AI 的演化与架构改进**，而这篇论文是一篇**应用驱动的评估类论文**。它更侧重于生物信息学和 AI 在科学发现（AI for Science）中的应用水平衡量，不属于 Agent 核心方法论的突破。 因此，建议排除。"
+    },
+    {
+        "index": "#1",
+        "title": "Pruning as a Game: Equilibrium-Driven Sparsification of Neural Networks",
+        "link": "/arxiv/2512.22106",
+        "arxiv_id": "2512.22106",
+        "authors": "Zubair Shah, Noaman Khan",
+        "subjects": "Artificial Intelligence",
+        "date": "2025-12-26",
+        "category": "cs.AI",
+        "crawl_time": "2025-12-29T22:45:10.828919",
+        "filter_reason": "这篇论文不符合您的研究范围，以下是详细的判断过程： 1. **核心贡献分析 (第一步)**：该论文的本质是关于**神经网络剪枝（Neural Network Pruning）**和**模型压缩**的研究。它提出了一种基于博弈论（非合作博弈）的新视角，将神经元或权重视为博弈参与者，通过寻找纳什均衡来实现模型的稀疏化。这属于**模型优化与基础设施（Infrastructure）**范畴，而非构建或改进 LLM 智能体的方法论。 2. **核心范式偏离 (第二步)**：虽然摘要中提到了“博弈（Game）”和“参与者（Players）”，但这些概念是应用在**模型内部的微观组件（如权重、滤波器）**上的数学抽象，目的是为了优化网络结构。这与您关注的“多智能体系统（MAS）”中**自主 LLM 智能体**之间的协作、通信或社会博弈有着本质区别。 3. **排除标准匹配 (第三步)**： - **基础设施与部署优化**：剪枝技术的主要目的是减少模型大小和计算成本，属于典型的部署优化研究，在您的排除标准之列。 - **缺乏 Agentic 能力**：论文完全没有涉及智能体的自主规划（Planning）、工具使用（Tool Use）、记忆（Memory）或自我反思（Self-Reflection）等核心能力。 4. **特殊情况核实 (第四步)**：该论文不涉及 LLM 的推理框架（如 CoT, ReAct），也不涉及智能体在环境反馈下的自我演化机制。它是一种训练/后处理阶段的参数优化手段。 **总结**：该论文是一篇纯粹的深度学习基础理论与模型压缩论文，与基于 LLM 的智能体架构、智能体演化或 Agentic AI 无关。"
+    },
+    {
+        "index": "#4",
+        "title": "Compliance Rating Scheme: A Data Provenance Framework for Generative AI Datasets",
+        "link": "/arxiv/2512.21775",
+        "arxiv_id": "2512.21775",
+        "authors": "Matyas Bohacek, Ignacio Vilanova Echavarri",
+        "subjects": "Artificial Intelligence, Computers and Society, Databases",
+        "date": "2025-12-25",
+        "category": "cs.AI",
+        "crawl_time": "2025-12-29T22:45:10.829312",
+        "filter_reason": "1. **核心贡献不符**: 这篇论文的核心贡献是提出了一个名为“合规评级方案”（Compliance Rating Scheme, CRS）的框架，以及一个用于数据溯源（Data Provenance）的 Python 库。其目的是评估生成式 AI 数据集的透明度、问责制和安全性，属于**数据治理与伦理合规**领域。 2. **不属于 Agentic AI 范畴**: 论文的研究对象是“数据集（Datasets）”及其合规性，而非“智能体（Agents）”的构建。它不涉及智能体的规划（Planning）、记忆（Memory）、工具使用（Tool Use）或多智能体协作（MAS）。 3. **触及排除标准**: - 该论文的主要关注点是 **Safety (安全性)**、**Security (保障)** 和 **Ethical considerations (伦理考虑)**，这在筛选标准的第三步中被明确列为排除项。 - 它属于**基础设施与数据管理**范畴，而非智能体演化机制。 4. **缺乏演化机制**: 论文中提到的“reactive and proactive”是指对数据集处理的响应式和主动式管理，与智能体通过经验或环境反馈进行的“自我演化（Self-Evolving）”完全不是一个概念。 综上所述，该论文与 LLM 智能体及其演化的研究目标不相关。"
+    }
+]
